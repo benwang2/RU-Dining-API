@@ -18,45 +18,45 @@ An example URL query and response would look like the following:
 <sub>Note that the example response below is significantly smaller than an actual response.</sub>
 ```json
 {
-	"StatusCode": 200,
-	"Status": "OK",
-	"URL": "http://menuportal.dining.rutgers.edu/FoodPro/pickmenu.asp?locationNum=04\u0026mealName=Lunch\u0026dtdate=09/02/2022",
-	"Menu": [
-		{
-			"Name": "BREAKFAST MEATS",
-			"Items": [
-				{
-					"Name": "PORK SAUSAGE LINKS",
-					"Info": "label.asp?RecNumAndPort=195018%2A3"
-				},
-				{
-					"Name": "TURKEY BACON",
-					"Info": "label.asp?RecNumAndPort=705281%2A4"
-				},
-				{
-					"Name": "VEGETARIAN BREAKFAST PATTIES",
-					"Info": "label.asp?RecNumAndPort=143000%2A2"
-				}
-			]
-		},
+  "StatusCode": 200,
+  "Status": "OK",
+  "URL": "http://menuportal.dining.rutgers.edu/FoodPro/pickmenu.asp?locationNum=04\u0026mealName=Lunch\u0026dtdate=09/02/2022",
+  "Menu": [
+    {
+      "Name": "BREAKFAST MEATS",
+      "Items": [
+        {
+          "Name": "PORK SAUSAGE LINKS",
+          "Info": "label.asp?RecNumAndPort=195018%2A3"
+        },
+        {
+          "Name": "TURKEY BACON",
+          "Info": "label.asp?RecNumAndPort=705281%2A4"
+        },
+        {
+          "Name": "VEGETARIAN BREAKFAST PATTIES",
+          "Info": "label.asp?RecNumAndPort=143000%2A2"
+        }
+      ]
+    },
         ...
-		{
-			"Name": "LUNCH TO GO",
-			"Items": [
-				{
-					"Name": "CHEESE STUFFED RIGATONI",
-					"Info": "label.asp?RecNumAndPort=140141%2A6"
-				},
-				{
-					"Name": "CHICKEN CAESAR WRAP",
-					"Info": "label.asp?RecNumAndPort=600929%2A1"
-				},
-				{
-					"Name": "CHIPOTLE BLACK BEAN BURGER",
-					"Info": "label.asp?RecNumAndPort=019105%2A1"
-				},
-			]
-		}
-	]
+    {
+      "Name": "LUNCH TO GO",
+      "Items": [
+        {
+          "Name": "CHEESE STUFFED RIGATONI",
+          "Info": "label.asp?RecNumAndPort=140141%2A6"
+        },
+        {
+          "Name": "CHICKEN CAESAR WRAP",
+          "Info": "label.asp?RecNumAndPort=600929%2A1"
+        },
+        {
+          "Name": "CHIPOTLE BLACK BEAN BURGER",
+          "Info": "label.asp?RecNumAndPort=019105%2A1"
+        },
+      ]
+    }
+  ]
 }
 ```
